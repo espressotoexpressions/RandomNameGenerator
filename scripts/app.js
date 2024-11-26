@@ -10,13 +10,13 @@ function getNameList(){
     return fetch('../data/classData.json')
     .then( response => response.json())
     .then (classData=> {
-        console.log(classData)
+      
         return classData.names
     })
 }
 
 function getRandomName(names){
-    console.log("Entered get random name");
+   
     let randomIndex = Math.floor(Math.random()*names.length);
 
     return names[randomIndex];
@@ -24,7 +24,7 @@ function getRandomName(names){
 
 function updatePreviousNames(randomStudent){
 
-    console.log("entered previous names");
+
     if (previousNames.length===5)
         {
             previousNames.shift();
@@ -37,8 +37,8 @@ function updatePreviousNames(randomStudent){
 
 pickBtn.addEventListener('click',(e)=>{
   getNameList().then( names =>{
-      console.log("entered then");
-      console.log(names);
+
+      
     let randomStudent = (getRandomName(names));
     //display it in DOM
     firstName.innerText=randomStudent.firstName;
