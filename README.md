@@ -12,4 +12,5 @@ Have  application themed and make sure  list of names is the class plus the Inst
 Have section that shows the previous 5 names that were pulled from  Random Name Generator.
 
 
-// Person who Peer Reviewed your assignment:
+// Person who Peer Reviewed your assignment: Bowen Henry
+Review: Wow, this looks incredible! The styling is so well done and your code runs perfectly. I have no critiques. Great job!
